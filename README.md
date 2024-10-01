@@ -56,7 +56,7 @@ from paddleocr import PaddleOCR
 use_angle_classifier = False
 model_path = './model/'
 
-ocr = PaddleOCR(lang='latin', show_log=False, det=True, 
+model = PaddleOCR(lang='latin', show_log=False, det=True, 
                use_angle_cls=use_angle_classifier,
                rec_model_dir=model_path, 
                use_gpu=True)
