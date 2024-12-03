@@ -40,7 +40,7 @@ onnx_rec_model = './onnx_model/rec_onnx/model.onnx'
 onnx_det_model = './onnx_model/det_onnx/model.onnx'
 onnx_cls_model = './onnx_model/cls_onnx/model.onnx'
 
-ocr = PaddleOCR(lang='latin', show_log=False, det=True, 
+model = PaddleOCR(lang='latin', show_log=False, det=True, 
                 use_angle_cls=use_angle_classifier,
                 rec_model_dir=onnx_rec_model, 
                 det_model_dir=onnx_det_model,
@@ -60,7 +60,7 @@ from paddleocr import PaddleOCR
 use_angle_classifier = False
 model_path = './model/'
 
-ocr = PaddleOCR(lang='latin', show_log=False, det=True, 
+model = PaddleOCR(lang='latin', show_log=False, det=True, 
                use_angle_cls=use_angle_classifier,
                rec_model_dir=model_path, 
                use_gpu=True)
