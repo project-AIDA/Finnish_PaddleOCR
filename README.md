@@ -1,5 +1,9 @@
 # Finnish_PaddleOCR
 
+<p float="left">
+  <img src="https://github.com/project-AIDA/.github/blob/main/Kuva12.png"  width="30%" height="30%">
+</p>
+
 This repository contains models developed in project Potential of Artificial Intelligence for Digital Archives' Users that was co-funded by the European Union. 
 
 It is a cooperation work between National Archives of Finland (NAF), Central Archives for Finnish Business (ELKA) and South East University of Finland (Xamk).
